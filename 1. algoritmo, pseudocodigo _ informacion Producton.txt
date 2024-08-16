@@ -1,0 +1,53 @@
+
+Algoritmo 1 (Programa de información de un producto)
+
+1. Iniciar
+2. Diseñar un programa de información de un producto
+3. Pedir el nombre del producto
+4. Pedir su descripción
+5. Pedir su precio
+6. Pedir su código de barras
+7. Mostrar nombre de descripción en la pantalla
+8. Finalizar
+
+
+
+Pseudocodigo 
+
+program_informacion_producto
+
+start
+
+// un programa que muestra información especifica de un producto
+
+// tipo de variable 
+declare string name 
+declare string descripción
+declare float precio 
+declare string  codigo_barra
+
+// pedir informacion
+display "digite el nombre del producto:"
+input name 
+
+display "escriba la descripción del producto:"
+input descripcion 
+
+display "digite el precio del producto:"
+input precio 
+
+display "escriba el código de barras del producto:"
+input codigo_barra 
+
+
+// mostrar la información 
+display "el nombre del producto es", name 
+display "la descripción del producto es", descripcion 
+display "el precio del producto es de", precio 
+display "el código de barra es de", codigo_barra 
+
+end
+
+
+
+
