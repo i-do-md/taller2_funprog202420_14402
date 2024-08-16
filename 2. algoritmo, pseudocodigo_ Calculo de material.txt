@@ -1,0 +1,33 @@
+problema 2 (calculo de material para construcción)
+
+Algoritmo
+ 
+inicio 
+1. digite el numero de pies cuadrados que desea cubrir 
+2. calcular el numero de bolsas de cemento que se necesitan dividiendo el numero de pies cuadrados entre 1500 y guardarlo en una variable que se llame cemento 
+3. mostrar en pantalla la cantidad de cemento que se necesita 
+fin 
+
+
+Pseudocodigo 
+
+program_cantidad_de_cobertura_bolsa_de_cemento
+
+start
+// un programa que determina la cantidad de pies cuadrados que cubre una bolsa de cemento 
+
+//especificar el tipo de variable que es 
+declare float pies_cuadrados 
+declare float bolsas_cemento 
+
+//pedir datos
+display "digite el numero de pies cuadrados que desea cubrir:"
+input pies_cuadrados 
+
+//hallar las bolsas de cemento dividiendo los pies cuadrados entre 1500
+set bolsas_cemento= pies_cuadrados / 1500
+
+// mastrar el calculo de en pantalla 
+display "la cantidad de bolsas de cemento que se necesita para cubrir la zona especificada es de", bolsas_cemento
+
+end
