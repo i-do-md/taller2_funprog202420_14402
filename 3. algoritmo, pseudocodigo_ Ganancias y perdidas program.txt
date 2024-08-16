@@ -1,0 +1,66 @@
+problema 3 
+
+algortimo 
+incio 
+1 pedir precio de compra del automóvil 
+2 pedir precio de las reparaciones necesarias 
+3 pedir precio de venta del automóvil 
+4 pedir porcentaje de comisión del vendedor 
+5 calcular el costo total invertido del automóvil sumando el precio de compra mas el precio de las reparaciones
+6 calcular la comisión del vendedor multiplicando el precio de venta por el porcentaje de comisión 
+7 calcular la ganancia después de la venta del auto restando el precio de venta menos el costo invertido menos la comsion del vendedor 
+8 mostrar costo invertido
+9 mostrar comisión del vendedor 
+10 mostrar ganancias 
+
+fin
+
+
+
+Pseudocodigo 
+
+program_informacion_automovil
+
+start
+// un programa que muestra las ganancias totales de la venta de un automóvil 
+
+
+// tipo de variable 
+delcare float precio_compra
+declare float precio_venta
+declare float precio_reparaciones 
+delcare float porcentaje_comisión_vendedor 
+declare float total_invertido 
+declare float comision_vendedor 
+declare float ganancia 
+
+
+// pedir datos 
+display "indique el precio de compra del automóvil:"
+input precio_compra 
+
+display "indique el precio de las reparaciones:"
+input precio_reparaciones 
+
+display "indique porcentaje de comisión del vendedor:"
+input porcentaje_comisión_vendedor 
+
+display "indique el precio de venta del auto:"
+input precio_venta
+
+
+
+// operaciones requeridas 
+set total_invertido= precio_compra + precio_reparaciones 
+set comision_vendedor= precio_venta * porcentaje_comision_vendedor 
+set ganancia= precio_venta - total_invertido - comison_vendedor 
+
+
+// mostar en pantalla 
+display "el costo invertido es de", total_invertido
+display "la comision del vendedor es de", comision_vendedor 
+display "las ganancias de la venta del audio es de", ganancia 
+
+
+end 
+
